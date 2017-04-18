@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>qss</string>
+		<string>css</string>
+	</array>
+	<key>name</key>
+	<string>qss</string>
+	<key>patterns</key>
+	<array>
+    <dict>
+      <key>include</key>
+      <string>source.css</string>
+    </dict>
+	</array>
+	<key>repository</key>
+	<dict>
+	</dict>
+	<key>scopeName</key>
+	<string>source.qss</string>
+	<key>uuid</key>
+	<string>1E963150-E703-47F0-8F1E-A3870EBC4D11</string>
+</dict>
+</plist>

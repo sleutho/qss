@@ -1,0 +1,44 @@
+{
+	"name": "qss",
+	"displayName": "Qt Style Sheet",
+	"description": "Qt Style Sheet Support",
+	"version": "0.1.0",
+	"publisher": "sleutho",
+	"icon": "images/qss.png",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sleutho/qss.git"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "qss",
+				"aliases": [
+					"Qt Style Sheet",
+					"Qt",
+					"Style Sheet",
+					"QStyle",
+					"CSS",
+					"qss"
+				],
+				"extensions": [
+					".qss",
+					".css"
+				]
+			}
+		],
+		"grammars": [
+			{
+				"language": "qss",
+				"scopeName": "source.qss",
+				"path": "./syntaxes/fem.tmLanguage"
+			}
+		]
+	}
+}
